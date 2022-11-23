@@ -1,0 +1,1 @@
+print(user.pet_greet())
