@@ -1,0 +1,3 @@
+class Pet:
+    type=""
+    sound=""
