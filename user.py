@@ -14,3 +14,6 @@ class User:
 
     def which_pet(self):
         return self.pet.name+" is a "+self.pet.type
+
+    def pet_greet(self):
+        return self.pet.name+" "+self.pet.sound+", when "+self.get_fullname()+" arrives!"
