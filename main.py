@@ -11,3 +11,6 @@ print(user.get_age())
 # John Doe
 pet = Cat()
 print(pet.type, pet.sound) # "dog", "barks"
+pet.name = "Garfield"
+print(pet.greet())
+# "Firulais barks"
