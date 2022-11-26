@@ -14,3 +14,6 @@ print(pet.type, pet.sound) # "dog", "barks"
 pet.name = "Garfield"
 print(pet.greet())
 # "Firulais barks"
+user.pet = pet
+print(user.which_pet())
+# "Firulais is a dog"
