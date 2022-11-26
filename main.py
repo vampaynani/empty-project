@@ -17,3 +17,5 @@ print(pet.greet())
 user.pet = pet
 print(user.which_pet())
 # "Firulais is a dog"
+print(user.pet_greet())
+# Firulais barks, when John Doe arrives!
